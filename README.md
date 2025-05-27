@@ -1,4 +1,4 @@
-# ♟️ Python Chess Bot with GUI and Opening Book
+# ♟️ Chessify: Python Chess Bot with GUI and Opening Book
 
 A beginner-friendly Chess Bot built with **Python**, **Pygame**, and **python-chess**, featuring a clean graphical interface, a Minimax-based AI opponent, and integrated **opening theory** using a Polyglot opening book.
 
@@ -61,8 +61,8 @@ A beginner-friendly Chess Bot built with **Python**, **Pygame**, and **python-ch
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/chess-bot.git
-cd chess-bot
+git clone https://github.com/AmanVerma1067/Chessify.git
+cd Chessify
 ```
 ### 2. Install Dependencies
 ```bash
