@@ -44,3 +44,64 @@ A beginner-friendly Chess Bot built with **Python**, **Pygame**, and **python-ch
 ---
 
 ## 📁 Project Structure
+- Chessify/
+- ├── assets/<br> ├── images/ # Piece images (K.png, p.png, etc.)<br> ├──screenshots/ # Gameplay GUI screenshots<br> └── opennings.pgn # Opening book in Polyglot .pgn format
+
+- ├── bot/<br>├── evaluation.py # Evaluation logic<br>├── minimax.py # Minimax algorithm<br>└── opening_book.py # Opening book interface
+
+- ├── main.py # CLI logic code
+- ├── gui_chess.py # Main GUI and game logic
+- ├── README.md
+
+
+
+---
+
+## 🔧 Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/chess-bot.git
+cd chess-bot
+```
+### 2. Install Dependencies
+```bash
+pip install pygame python-chess
+```
+### 3. Run the Chess Bot
+```bash
+python gui_chess.py
+```
+## 📦 Dependencies
+- pygame
+
+- python-chess
+
+## 🧠 How the Bot Works
+#### Opening Phase (first ~10 moves):
+
+- Selects moves from the Polyglot opening book
+
+#### Middle/End Game:
+
+- Uses Minimax algorithm with alpha-beta pruning
+
+- Evaluates positions using material and positional heuristics
+
+#### Game Flow:
+
+- You play as White
+
+- Bot responds as Black automatically
+
+- Visual indicators for check, checkmate, and draws
+
+## 🎮 Controls
+**Left-click:** Select/move pieces
+
+Game ends automatically with appropriate messages
+
+**Restart:** Close and relaunch the application
+
+## 🤝 Contributing
+Contributions are welcome! Submit a pull request or open an issue for bugs, improvements, or new features
