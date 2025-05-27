@@ -108,7 +108,7 @@ def display_end_message(screen, board):
 def main():
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT + 30))
-    pygame.display.set_caption("Chess Bot")
+    pygame.display.set_caption("Chessify")
     clock = pygame.time.Clock()
     board = chess.Board()
     load_images()
