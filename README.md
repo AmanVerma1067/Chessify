@@ -46,18 +46,18 @@ A beginner-friendly Chess Bot built with **Python**, **Pygame**, and **python-ch
 ## 📁 Project Structure
 ```bash
 Chessify/  
-  ├── assets/<br>  
-  │   ├── images/  # Piece images (K.png, p.png, etc.)<br>  
-  │   ├── screenshots/  # Gameplay GUI screenshots<br>  
-  │   └── opennings.pgn  # Opening book in PGN format<br>  
+  ├── assets/
+  │   ├── images/  # Piece images (K.png, p.png, etc.)
+  │   ├── screenshots/  # Gameplay GUI screenshots
+  │   └── opennings.pgn  # Opening book in PGN format  
 
-  ├── bot/<br>  
-  │   ├── evaluation.py  # Evaluation logic<br>  
-  │   ├── minimax.py  # Minimax algorithm<br>  
-  │   └── opening_book.py  # Opening book interface<br>  
+  ├── bot/ 
+  │   ├── evaluation.py  # Evaluation logic
+  │   ├── minimax.py  # Minimax algorithm 
+  │   └── opening_book.py  # Opening book interface  
 
-  ├── main.py  # CLI logic code<br>  
-  ├── gui_chess.py  # Main GUI and game logic<br>  
+  ├── main.py  # CLI logic code
+  ├── gui_chess.py  # Main GUI and game logic
   └── README.md
 
 ```
